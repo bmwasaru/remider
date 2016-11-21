@@ -15,7 +15,7 @@ message = "Hello Swahilipotter, \nVote for Mahmood Noor (Swahilipot Hub patron) 
 gateway = AfricasTalkingGateway(username, apikey)
 
 
-def vote():
+def send_sms():
     # Any gateway errors will be captured by our custom Exception class below,
     # so wrap the call in a try-catch block
     try:
