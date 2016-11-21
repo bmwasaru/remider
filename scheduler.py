@@ -1,8 +1,8 @@
 import schedule
 
-from sms import vote
+from sms import send_sms
 
-schedule.every(1).hour.do(vote)
+schedule.every(1).hour.do(send_sms)
 
 while True:
     schedule.run_pending()
